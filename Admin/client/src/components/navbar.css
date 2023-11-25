@@ -1,0 +1,72 @@
+/* navbra.css */
+
+/* Navbar container */
+.navbar {
+  background-color: #080710;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo */
+.logo {
+  font-size: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Navigation list */
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin-right: 20px;
+}
+
+.nav-list li:last-child {
+  margin-right: 0;
+}
+
+/* Navigation links */
+.nav-list a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+  color: #23a2f6;
+}
+
+/* Navigation buttons */
+.nav-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.nav-button {
+  text-decoration: none;
+  background-color: #23a2f6;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:last-child {
+  margin-right: 0;
+}
+
+.nav-button:hover {
+  background-color: #1845ad;
+}

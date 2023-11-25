@@ -1,0 +1,53 @@
+/* Add this CSS to your existing CSS file or create a new CSS file for the Login component */
+
+/* Login container */
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+input {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button[type="submit"] {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #23a2f6;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #1845ad;
+}
+
+/* Center the form within the container */
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
